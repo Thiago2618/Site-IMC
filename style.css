@@ -49,18 +49,33 @@ main {
  margin: auto;
  align-items: center;
  padding: 50px;
+ justify-content: space-around;
 }
 
 .form {
     background-color: purple;
     padding: 20px;
-    width: 600px;
+    width: 300px;
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.form p {
+    padding: 15px;
 }
 
 .resultado {
     background-color: purple;
     padding: 20px;
-    width: 600px;
+    width: 300px;
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
