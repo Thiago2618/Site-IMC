@@ -37,6 +37,8 @@ header > h1{
     color: white;
     font-variant: small-caps;
     text-shadow: 0px 0px 7px black;
+    display: flex;
+    align-items: center;
 }
 
 a:hover {
@@ -45,11 +47,13 @@ a:hover {
 }
 
 main {
- display: flex;
- margin: auto;
- align-items: center;
- padding: 50px;
- justify-content: space-around;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-around;
+    height: 80vh;
+    margin-bottom: 35px;
 }
 
 .form {
@@ -60,12 +64,27 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     border-radius: 20px;
-}
+} 
 
 .form p {
     padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 12pt;
+    height: 23px;
+    background-color: #4d4d4db4;
+    box-shadow: 0px 0px 3px black;
+    outline: none;
+    box-sizing: border-box;
 }
 
 .resultado {
@@ -78,4 +97,11 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+}
+
+footer {
+    background-color: #4D4D4D;
+    padding: 10px;
+    text-align: center;
+    
 }
