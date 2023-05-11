@@ -20,8 +20,6 @@
     <main>
         <div class="formulario">
             <form  class="form" action="">
-                <label for="nome">Nome:</label>
-                <input class="nome" type="text" placeholder="Nome">
                 <label for="altura">Altura:</label>
                 <input class="altura" type="text" placeholder="Altura em (m)">
                 <label for="peso">Peso:</label>
@@ -34,9 +32,29 @@
         </div>
        
         <div class="resultado">
-            <h1 class="resultadoNome" >nome</h1>
-            <p class="imc">IMC</p>
-            <P class="nivelImc">nivel de imc</P>
+            <p class="imcP">IMC: <span class="valorImc">0</span></p>
+            <table>
+                <tr class="menu">
+                    <td>IMC</td>
+                    <td>Classificação</td>
+                </tr>
+                <tr>
+                    <td>entre 18,5 e 24,9</td>
+                    <td>Normal</td>
+                </tr>
+                <tr>
+                    <td>entre 25 e 29,9</td>
+                    <td>Sobrepeso</td>
+                </tr>
+                <tr>
+                    <td>Acima de 30</td>
+                    <td>Obesidade</td>
+                </tr>
+                <tr>
+                    <td>Acima de 40</td>
+                    <td>Obesidade</td>
+                </tr>
+            </table>
         </div>
     </main>
     <footer>

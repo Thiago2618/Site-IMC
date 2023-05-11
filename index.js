@@ -5,7 +5,6 @@ function meuEscopo () {
         
         evento.preventDefault();
 
-        const nome = form.querySelector(".nome");
         const altura = form.querySelector(".altura");
         const peso = form.querySelector(".peso");
 
@@ -17,8 +16,8 @@ function meuEscopo () {
 
         console.log(imcValor);
         
-        const resultadoNome = document.querySelector(".resultadoNome");
-        resultadoNome.innerHTML = nome.value;
+        const resultadoImc = document.querySelector(".valorImc")
+        resultadoImc.innerHTML = imcValor;
 
     }
 

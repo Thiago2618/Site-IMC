@@ -71,7 +71,6 @@ main {
 
 .form label {
     color: white;
-    margin-bottom: 5px;
     margin-top: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
@@ -83,7 +82,6 @@ input {
     border: none;
     border-radius: 6px;
     font-size: 12pt;
-    height: 23px;
     background-color: #4d4d4db4;
     box-shadow: 0px 0px 3px black;
     outline: none;
@@ -91,6 +89,8 @@ input {
     text-indent: 10px;
     color: white;
     height: 30px;
+    margin: 20px auto;
+    margin-top: 7px;
 }
 
 
@@ -142,9 +142,36 @@ button:hover {
     
 }
 
-.imc {
-    margin-top: 50px;
+.imcP {
+    margin-top: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 1.1em;
 }
+
+.nivelImc {
+    margin-top: 10px;
+}
+
+table {
+    font-size: small;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.5em;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+table .menu {
+    font-size: medium;
+    text-align: center
+}
+
 
 
 footer {
