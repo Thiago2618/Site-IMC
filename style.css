@@ -6,7 +6,7 @@
 
 body{
     height: 100vh; 
-    background-image: linear-gradient(to top, #635B5A, #595350, #4D4D4D);
+    background-image: linear-gradient(to bottom, #423b3f, #423d3c, #3d3938);
 }
 
 header {
@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     padding: 10px;
     margin: auto;
-    box-shadow: 0px 0px 7px #24242454;
+    box-shadow: 0px 0px 3px black;
 }
 
 nav {
@@ -40,11 +40,12 @@ header > h1{
     display: flex;
     align-items: center;
     cursor: pointer;
+    padding-left: 10px;
 }
 
 a:hover {
-    color: black;
     text-decoration: underline;
+    font-size: 1.1em;
 }
 
 main {
@@ -175,7 +176,7 @@ table .menu {
 
 
 footer {
-    background-color: #4D4D4D;
+    background-color: #222222;
     padding: 10px;
     text-align: center;
     color: white;
