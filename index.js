@@ -16,10 +16,12 @@ function meuEscopo () {
         const imcValor = resultado.toFixed(1);
 
         console.log(imcValor);
+        
+        const resultadoNome = document.querySelector(".resultadoNome");
+        resultadoNome.innerHTML = nome.value;
 
     }
 
-    const resultadoNome = document.querySelector(".resultadoNome");
     
 
 
