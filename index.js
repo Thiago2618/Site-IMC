@@ -19,6 +19,10 @@ function meuEscopo () {
 
     }
 
+    const resultadoNome = document.querySelector(".resultadoNome");
+    
+
+
     form.addEventListener ('submit', recebeFormulario);
 }
 
