@@ -9,13 +9,14 @@ function meuEscopo () {
         const altura = form.querySelector(".altura");
         const peso = form.querySelector(".peso");
 
-        let resultado = Number(peso) / (Number(altura) * Number(altura))
-        console.log(resultado);
-        console.log(nome.value, peso.value, altura.value);
-        console.log(typeof peso);
-        
+        let numPeso = parseFloat(peso.value);
+        let numAltura = parseFloat(altura.value);
 
-    
+        const resultado = (numPeso / (numAltura * numAltura));
+        const imcValor = resultado.toFixed(1);
+
+        console.log(imcValor);
+
     }
 
     form.addEventListener ('submit', recebeFormulario);
